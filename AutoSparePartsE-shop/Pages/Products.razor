@@ -8,13 +8,22 @@
              Resizable="true" Reorderable="true">
     <GridColumns>
         <GridColumn Field="@(nameof(Product.ProductID))" Title="Picture" Filterable="false">
-                    <Template>
-                        @{ 
-                                    var product = context as Product;
-                            <img class="rounded-0" height="50p" width="100p" 
-                                 src="@($"/images/{product.ProductID}.jpg")" alt="Product Photo"/>
-                        }
-                        </Template> 
+            <Template>
+                @{
+                    var product = context as Product;
+                    if (product.AvailablePsc > 0)
+                    {
+                        <img class="rounded-0" height="50p" width="100p"
+                             src="@($"/images/{product.ProductID}.jpg")" alt="Product Photo" />
+                    }
+                    else
+                    {
+                        <img class="rounded-0" height="50p" width="100p"
+                             src="@($"/images/OOSStamp.jpg")" alt="Product Photo" />
+                    }
+
+                }
+            </Template> 
             </GridColumn>
         <GridColumn Field="@(nameof(Product.ProductName))" Title="Name" />
         <GridColumn Field="@(nameof(Product.ProductCategory))" Title="Category" />
