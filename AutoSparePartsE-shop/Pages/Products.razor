@@ -1,0 +1,30 @@
+﻿@page "/products"
+@using AutoSparePartsE_shop.Data
+@inherits ProductsBase
+<h2>Products</h2>
+<TelerikGrid Data="@Products" Height="500px"
+             Pageable="true" Sortable="true"
+             FilterMode="Telerik.Blazor.GridFilterMode.FilterRow"
+             Resizable="true" Reorderable="true">
+    <GridColumns>
+        <GridColumn Field="@(nameof(Product.ProductID))" Title="Picture" Filterable="false">
+                    <Template>
+                        @{ 
+                                    var product = context as Product;
+                            <img class="rounded-0" height="50p" width="100p" 
+                                 src="@($"/images/{product.ProductID}.jpg")" alt="Product Photo"/>
+                        }
+                        </Template> 
+            </GridColumn>
+        <GridColumn Field="@(nameof(Product.ProductName))" Title="Name" />
+        <GridColumn Field="@(nameof(Product.ProductCategory))" Title="Category" />
+        <GridColumn Field="@(nameof(Product.AvailablePsc))" Title="Psc on Stock" />
+        <GridColumn Field="@(nameof(Product.AvailableOn))" Title="For delivery" />
+        <GridColumn Field="@(nameof(Product.ProductPrice))" Title="Retail pRice" />
+    </GridColumns>
+    
+</TelerikGrid>
+
+@code{
+    
+}
