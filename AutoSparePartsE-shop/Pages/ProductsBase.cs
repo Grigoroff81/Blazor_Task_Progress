@@ -24,7 +24,7 @@ namespace AutoSparePartsE_shop.Pages
                 ProductName = "Head Light",
                 ProductCategory = "Body Parts",
                 AvailablePsc = 2,
-                AvailableOn = DateTime.Today,
+                //AvailableOn = DateTime.Today,
                 ProductPrice = 99.99,
                 ImagePath ="images/1.jpg"
             };
@@ -34,7 +34,7 @@ namespace AutoSparePartsE_shop.Pages
                 ProductName = "Front Fender",
                 ProductCategory = "Body Parts",
                 AvailablePsc = 1,
-                AvailableOn = DateTime.Today,
+                //AvailableOn = DateTime.Today,
                 ProductPrice = 129.99,
                 ImagePath = "images/2.jpg"
             };
@@ -44,7 +44,7 @@ namespace AutoSparePartsE_shop.Pages
                 ProductName = "Motor Oil 5w40",
                 ProductCategory = "Filters and Oils",
                 AvailablePsc = 12,
-                AvailableOn = DateTime.Today,
+                //AvailableOn = DateTime.Today,
                 ProductPrice = 19.99,
                 ImagePath = "images/3.jpg"
             };
@@ -54,7 +54,7 @@ namespace AutoSparePartsE_shop.Pages
                 ProductName = "Oil Filter",
                 ProductCategory = "Filters and Oils",
                 AvailablePsc = 6,
-                AvailableOn = DateTime.Today,
+                //AvailableOn = DateTime.Today,
                 ProductPrice = 9.99,
                 ImagePath = "images/4.jpg"
             };
@@ -64,7 +64,7 @@ namespace AutoSparePartsE_shop.Pages
                 ProductName = "Brake Disks",
                 ProductCategory = "Brake System",
                 AvailablePsc = 0,
-                AvailableOn = DateTime.Today.AddDays(2),
+                //AvailableOn = DateTime.Today.AddDays(2),
                 ProductPrice = 89.99,
                 ImagePath = "images/5.jpg"
             };
@@ -74,7 +74,7 @@ namespace AutoSparePartsE_shop.Pages
                 ProductName = "Brake Pads",
                 ProductCategory = "Brake System",
                 AvailablePsc = 0,
-                AvailableOn = DateTime.Today.AddDays(2),
+                //AvailableOn = DateTime.Today.AddDays(2),
                 ProductPrice = 45.99,
                 ImagePath = "images/6.jpg"
             };

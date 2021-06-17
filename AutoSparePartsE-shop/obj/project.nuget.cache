@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "btz7TDBDl/ScUQtShjr1mazSPdY45K2Jsc0pF7mq72/8H2MGKZONGthHJ6dKp7+xpNdwX5BgZdPJooUY8/TIZA==",
+  "dgSpecHash": "nO+uewBZOtx9KaQvzq79bQrlR7GBc6HiYDCS6E9GOaNCXGyhbAv09GloDzHBd9gmCtQocPdxTga/4jK5Q4/lvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ivo\\Desktop\\GITFolders\\Blazor_Task_Progress\\AutoSparePartsE-shop\\AutoSparePartsE-shop.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.jsinterop\\3.1.13\\microsoft.jsinterop.3.1.13.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ivo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\system.data.common\\4.3.0\\system.data.common.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",

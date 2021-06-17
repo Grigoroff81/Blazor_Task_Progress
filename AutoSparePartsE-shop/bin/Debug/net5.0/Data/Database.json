@@ -1,0 +1,26 @@
+[
+  {
+    "ProductID": "1",
+    "ProductName": "Head Light",
+    "ProductCategory": "Body Parts",
+    "AvailablePsc": "2",
+    "ProductPrice": "99.99",
+    "ImagePath": "\\images/1.jpg\\"
+  },
+  {
+    "ProductID": "2",
+    "ProductName": "Front Fender",
+    "ProductCategory": "Body Parts",
+    "AvailablePsc": "3",
+    "ProductPrice": "199.99",
+    "ImagePath": "\\images/2.jpg\\"
+  },
+  {
+    "ProductID": "3",
+    "ProductName": "Oil 5w40",
+    "ProductCategory": "Filters and Oils",
+    "AvailablePsc": "4",
+    "ProductPrice": "19.99",
+    "ImagePath": "\\images/3.jpg\\"
+  }
+]

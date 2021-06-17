@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="27.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Telerik.UI.for.Blazor.Trial" Version="2.24.0" />
   </ItemGroup>
 

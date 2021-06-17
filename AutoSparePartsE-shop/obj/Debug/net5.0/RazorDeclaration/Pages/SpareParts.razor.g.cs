@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace AutoSparePartsE_shop.Shared
+namespace AutoSparePartsE_shop.Pages
 {
     #line hidden
     using System;
@@ -96,7 +96,15 @@ using Telerik.Blazor.Components;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\Pages\SpareParts.razor"
+using AutoSparePartsE_shop.Data;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/spareparts")]
+    public partial class SpareParts : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -104,20 +112,18 @@ using Telerik.Blazor.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\Shared\NavMenu.razor"
+#line 34 "C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\Pages\SpareParts.razor"
        
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private IList<Product> parts;
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        parts = await sparePartsService.GetAllPartsService();
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private PartsService sparePartsService { get; set; }
     }
 }
 #pragma warning restore 1591

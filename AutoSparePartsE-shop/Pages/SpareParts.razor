@@ -1,8 +1,9 @@
-﻿@page "/products"
+﻿@page "/spareparts"
 @using AutoSparePartsE_shop.Data
-@inherits ProductsBase
-<h2>Products</h2>
-<TelerikGrid Data="@Products" Height="500px"
+@inject PartsService sparePartsService
+
+<h2>Spare Parts</h2>
+<TelerikGrid Data="@parts" Height="500px"
              Pageable="true" Sortable="true"
              FilterMode="Telerik.Blazor.GridFilterMode.FilterRow"
              Resizable="true" Reorderable="true">
@@ -10,19 +11,9 @@
         <GridColumn Field="@(nameof(Product.ProductID))" Title="Picture" Filterable="false">
             <Template>
                 @{
-                    
+
                     var product = context as Product;
-                    /*if (product.AvailablePsc > 0)
-                    {
-                        <img class="rounded-0" height="50" width="100"
-                             src="@($"/images/{product.ProductID}.jpg")" alt="Product Photo" />
-                    }
-                    else
-                    {
-                        <img class="rounded-0" height="50" width="100"
-                             src="@($"/images/OOSStamp.jpg")" alt="Product Photo" />
-                    }*/
-                    <img class="rounded-0, align-content-md-center" height="60" width="120" 
+                    <img class="rounded-0, align-content-md-center" height="60" width="120"
                          src="@($"/images/{product.ProductID}.jpg")" alt="Product Photo" />
                     if (product.AvailablePsc < 1)
                     {
@@ -30,17 +21,20 @@
                              src="@($"/images/OOSStamp.jpg")" alt="Out of Stock" />
                     }
                 }
-            </Template> 
-            </GridColumn>
+            </Template>
+        </GridColumn>
         <GridColumn Field="@(nameof(Product.ProductName))" Title="Name" />
         <GridColumn Field="@(nameof(Product.ProductCategory))" Title="Category" />
         <GridColumn Field="@(nameof(Product.AvailablePsc))" Title="Psc on Stock" />
-        <!--GridColumn Field="@(nameof(Product.AvailableOn))" Title="For delivery" /-->
         <GridColumn Field="@(nameof(Product.ProductPrice))" Title="Retail pRice" />
     </GridColumns>
-    
+
 </TelerikGrid>
 
-@code{
-    
+@code {
+    private IList<Product> parts;
+    protected override async Task OnInitializedAsync()
+    {
+        parts = await sparePartsService.GetAllPartsService();
+    }
 }

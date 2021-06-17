@@ -29,6 +29,7 @@ namespace AutoSparePartsE_shop
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddTelerikBlazor();
+            services.AddSingleton<PartsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

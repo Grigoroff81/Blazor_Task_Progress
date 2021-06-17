@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace AutoSparePartsE_shop.Shared
+namespace AutoSparePartsE_shop.Pages
 {
     #line hidden
     using System;
@@ -96,28 +96,21 @@ using Telerik.Blazor.Components;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\Pages\Spare Parts.razor"
+using AutoSparePartsE_shop.Data;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/spare parts")]
+    public partial class Spare_Parts : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 28 "C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\Shared\NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

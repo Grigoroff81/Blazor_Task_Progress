@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[27.1.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Telerik.UI.for.Blazor.Trial": {
               "target": "Package",
               "version": "[2.24.0, )"

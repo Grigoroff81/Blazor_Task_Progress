@@ -129,3 +129,7 @@ C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\obj\De
 C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\obj\Debug\net5.0\AutoSparePartsE-shop.pdb
 C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\obj\Debug\net5.0\AutoSparePartsE-shop.genruntimeconfig.cache
 C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\bin\Debug\net5.0\CsvHelper.dll
+C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\bin\Debug\net5.0\Data\Database.json
+C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\obj\Debug\net5.0\RazorDeclaration\Pages\SpareParts.razor.g.cs
+C:\Users\Ivo\Desktop\GITFolders\Blazor_Task_Progress\AutoSparePartsE-shop\obj\Debug\net5.0\Razor\Pages\SpareParts.razor.g.cs
