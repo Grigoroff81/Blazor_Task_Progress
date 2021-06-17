@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "AutoSparePartsE-shop/1.0.0": {
         "dependencies": {
+          "CsvHelper": "27.1.0",
           "Telerik.UI.for.Blazor.Trial": "2.24.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -323,6 +324,17 @@
         },
         "compile": {
           "AutoSparePartsE-shop.dll": {}
+        }
+      },
+      "CsvHelper/27.1.0": {
+        "runtime": {
+          "lib/net5.0/CsvHelper.dll": {
+            "assemblyVersion": "27.0.0.0",
+            "fileVersion": "27.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/CsvHelper.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/3.1.13": {
@@ -2352,6 +2364,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CsvHelper/27.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nrUpgvwEOq6xcdpvAMV0bnzVz1mHcPy9LjWXVbZq9pKs5nWdVFmUMoiEBsxY9+f1mR2Rdk0fOkK91OstYjTVxA==",
+      "path": "csvhelper/27.1.0",
+      "hashPath": "csvhelper.27.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/3.1.13": {
       "type": "package",

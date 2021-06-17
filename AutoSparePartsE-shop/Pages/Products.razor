@@ -10,18 +10,25 @@
         <GridColumn Field="@(nameof(Product.ProductID))" Title="Picture" Filterable="false">
             <Template>
                 @{
+                    
                     var product = context as Product;
-                    if (product.AvailablePsc > 0)
+                    /*if (product.AvailablePsc > 0)
                     {
-                        <img class="rounded-0" height="50p" width="100p"
+                        <img class="rounded-0" height="50" width="100"
                              src="@($"/images/{product.ProductID}.jpg")" alt="Product Photo" />
                     }
                     else
                     {
-                        <img class="rounded-0" height="50p" width="100p"
+                        <img class="rounded-0" height="50" width="100"
                              src="@($"/images/OOSStamp.jpg")" alt="Product Photo" />
+                    }*/
+                    <img class="rounded-0" height="60" width="120" style="background:border-box"
+                         src="@($"/images/{product.ProductID}.jpg")" alt="Product Photo" />
+                    if (product.AvailablePsc < 1)
+                    {
+                        <img class="rounded-circle" height="50"
+                             src="@($"/images/OOSStamp.jpg")" alt="Out of Stock" />
                     }
-
                 }
             </Template> 
             </GridColumn>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "w+kq2pUUDd5A5dijVJlpBKHRGVdtPvH/1KmTMybJYovmK7e7+0k/CExfHUte2Rpsgiz4hLMvQzXkvKrPeYoDcg==",
+  "dgSpecHash": "btz7TDBDl/ScUQtShjr1mazSPdY45K2Jsc0pF7mq72/8H2MGKZONGthHJ6dKp7+xpNdwX5BgZdPJooUY8/TIZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ivo\\Desktop\\GITFolders\\Blazor_Task_Progress\\AutoSparePartsE-shop\\AutoSparePartsE-shop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ivo\\.nuget\\packages\\csvhelper\\27.1.0\\csvhelper.27.1.0.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.13\\microsoft.aspnetcore.authorization.3.1.13.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.13\\microsoft.aspnetcore.components.3.1.13.nupkg.sha512",
     "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.13\\microsoft.aspnetcore.components.analyzers.3.1.13.nupkg.sha512",
